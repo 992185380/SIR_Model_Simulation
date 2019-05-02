@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="612.0" prefWidth="363.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="884.0" prefWidth="1176.0">
+         <children>
+            <LineChart fx:id="lineChartSIR" layoutY="339.0" prefHeight="266.0" prefWidth="363.0" title="S.I.R. Count">
+              <xAxis>
+                <NumberAxis side="BOTTOM" upperBound="500.0" fx:id="xAxis" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="yAxis" side="LEFT" upperBound="30000.0" />
+              </yAxis>
+            </LineChart>
+            <Label layoutX="84.0" layoutY="14.0" text="Statistics Panel">
+               <font>
+                  <Font name="Yu Gothic UI Light" size="32.0" />
+               </font>
+            </Label>
+            <PieChart fx:id="pieChartSIR" layoutX="-1.0" layoutY="61.0" prefHeight="266.0" prefWidth="363.0" title="S.I.R. Count" />            
+         </children>
+      </Pane>
+   </children>
+</VBox>

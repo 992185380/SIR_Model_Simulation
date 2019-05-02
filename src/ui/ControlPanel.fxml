@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="483.0" maxWidth="236.0" minHeight="483.0" minWidth="236.0" prefHeight="483.0" prefWidth="236.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Pane fx:id="controlScene" prefHeight="483.0" prefWidth="52.0">
+			<children>
+				<Label layoutX="27.0" layoutY="26.0" text="Control Panel">
+					<font>
+						<Font name="Yu Gothic UI Light" size="32.0" />
+					</font>
+				</Label>
+				<ProgressIndicator fx:id="currentTaskProgressIndicator" layoutX="61.0" layoutY="416.0" progress="0.0" />
+				<ProgressIndicator fx:id="allTasksProgressIndicator" layoutX="107.0" layoutY="416.0" progress="0.0" />
+				<Label layoutX="55.0" layoutY="374.0" text="Current" />
+				<Label layoutX="115.0" layoutY="374.0" text="All" />
+				<Label layoutX="63.0" layoutY="391.0" text="Task" />
+				<Label layoutX="107.0" layoutY="391.0" text="Tasks" />
+				<Button fx:id="btnGG" layoutX="14.0" layoutY="129.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Generate Grid">
+					<font>
+						<Font name="Yu Gothic UI Light" size="12.0" />
+					</font>
+				</Button>
+				<Label layoutX="90.0" layoutY="96.0" text="Controls">
+					<font>
+						<Font name="Yu Gothic UI Light" size="16.0" />
+					</font>
+				</Label>
+				<Button fx:id="btnRS" layoutX="14.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Run Simulation">
+               <font>
+                  <Font name="Yu Gothic UI Light" size="12.0" />
+               </font></Button>
+				<Label layoutX="92.0" layoutY="217.0" text="Settings">
+					<font>
+						<Font name="Yu Gothic UI Light" size="16.0" />
+					</font>
+				</Label>
+				<Label layoutX="58.0" layoutY="250.0" text="Cell Dimensions: ">
+					<font>
+						<Font name="Yu Gothic Light" size="14.0" />
+					</font>
+				</Label>
+				<Label layoutX="62.0" layoutY="291.0" text="Chance of Infection">
+					<font>
+						<Font name="Yu Gothic Light" size="14.0" />
+					</font>
+				</Label>
+				<Label layoutX="16.0" layoutY="312.0" text="1 out of">
+					<font>
+						<Font name="Yu Gothic Light" size="14.0" />
+					</font>
+				</Label>
+            <Slider fx:id="sliderCD" layoutX="48.0" layoutY="269.0" min="2.0" value="35.0" />
+            <Label fx:id="labelCD" layoutX="170.0" layoutY="250.0" text="7">
+               <font>
+                  <Font name="Yu Gothic Light" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelCI" layoutX="65.0" layoutY="312.0" text="300">
+               <font>
+                  <Font name="Yu Gothic Light" size="14.0" />
+               </font>
+            </Label>
+            <Slider fx:id="sliderCIN" layoutX="101.0" layoutY="314.0" min="1.0" prefHeight="14.0" prefWidth="116.0" value="30.0" />
+            <Button fx:id="btnGF" layoutX="122.0" layoutY="129.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Generate Gif">
+               <font>
+                  <Font name="Yu Gothic UI Light" size="12.0" />
+               </font>
+            </Button>
+            <CheckBox fx:id="checkBoxPAC" layoutX="122.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Pause After Run">
+               <font>
+                  <Font name="Yu Gothic UI Light" size="12.0" />
+               </font>
+            </CheckBox>
+            <Label layoutX="153.0" layoutY="391.0" text="Gen" />
+            <Label layoutX="157.0" layoutY="375.0" text="Gif" />
+            <ProgressIndicator fx:id="gifGenProgressIndicator" layoutX="149.0" layoutY="417.0" progress="0.0" />
+			</children>
+		</Pane>
+	</children>
+</VBox>

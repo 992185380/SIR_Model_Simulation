@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.Controller">
+   <children>
+      <Pane layoutX="-7.0" layoutY="-7.0" prefHeight="550.0" prefWidth="550.0">
+         <children>
+            <GridPane layoutX="7.0" layoutY="7.0" prefHeight="550.0" prefWidth="543.0" id="grid" fx:id="grid">
+
+            </GridPane>
+         </children></Pane>
+   </children>
+</AnchorPane>

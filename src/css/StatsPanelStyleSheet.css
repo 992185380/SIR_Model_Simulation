@@ -1,0 +1,49 @@
+/*
+ *  @author Tomas S
+ *  @author - Ryan C
+ *  
+ *  @Project - Final 
+ *  @Professor - Dr. Micah S
+ *  @Class - COMP1050
+ *  
+ *  @Class Description - CSS sheet for the stats panel that changes the colors of certain properties.
+ */
+
+/*Line Chart
+ * 
+ * Changes the color of the series and points to match the color of the S.I.R. Model
+ * */
+.default-color0.chart-series-line{
+	-fx-stroke: #0000ff;
+}
+.default-color0.chart-line-symbol{
+	-fx-background-color: #0000ff, white;
+}
+
+.default-color1.chart-series-line{
+	-fx-stroke: #007f00;
+}
+.default-color1.chart-line-symbol{
+	-fx-background-color: #007f00, white;
+}
+
+.default-color2.chart-series-line{
+	-fx-stroke: #ff0000;
+}
+.default-color2.chart-line-symbol{
+	-fx-background-color: #ff0000, white;
+}
+
+/*PIE  
+ *  
+ * Changes the color of the series and points to match the color of the S.I.R. Model
+ * */
+.default-color0.chart-pie {
+	-fx-pie-color: #0000ff;
+}
+.default-color1.chart-pie {
+	-fx-pie-color: #007f00;
+}
+.default-color2.chart-pie {
+	-fx-pie-color: #ff0000;
+}
