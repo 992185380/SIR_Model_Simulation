@@ -4,12 +4,8 @@ Authors:
 Ryan C
 Tomas S
 
-### Gif:
-![SIR Simulation GIF](https://giphy.com/gifs/WthGPQwO44ZlXGJhIT)
-
 ### Install & Run:
 
-### IntelliJ
 ### IntelliJ
 
 #Step 1:
